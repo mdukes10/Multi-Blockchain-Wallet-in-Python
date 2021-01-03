@@ -35,7 +35,7 @@ In this project we will be building an HD Wallet that supprots the management of
 
 Your directory tree should look something like this:
 
-![directory-tree](Images/tree.png)
+![directory-tree](images/tree.png)
 
 ### Setup constants
 
@@ -71,7 +71,7 @@ Your directory tree should look something like this:
 - Create an object called `coins` that derives `ETH` and `BTCTEST` wallets with this function.
   When done properly, the final object should look something like this (there are only 3 children each in this image):
 
-![wallet-object](Images/wallet.png)
+![wallet-object](images/wallet.png)
 
 You should now be able to select child accounts (and thus, private keys) by calling `coins[COINTYPE][INDEX]['privkey']`.
 
@@ -144,7 +144,7 @@ You'll need to set the account with  `priv_key_to_account` and use `send_tx` to 
 
 - Screenshot the confirmation of the transaction like so:
 
-![bittest](Images/bittest.png)
+![bittest](images/bittest.png)
 
 #### Local PoA Ethereum transaction
 
@@ -169,6 +169,6 @@ w3.middleware_onion.inject(geth_poa_middleware, layer=0)
 - Send a transaction from the pre-funded address within the wallet to another, then copy the `txid` into
   MyCrypto's TX Status, and screenshot the successful transaction like so:
 
-![eth](Images/eth.png)
+![eth](images/eth.png)
 
 - Celebrate the fact that you now have an incredibly powerful wallet that you can expand to hundreds of coins!
