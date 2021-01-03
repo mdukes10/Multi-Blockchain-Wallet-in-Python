@@ -3,7 +3,7 @@
 
 ## Background
 
-In this project we will be building an HD Wallet that supprots the management of multiple cryptocurrencies. We will be implementing this using hd-wallet-derive, a command-line tool that derives BIP32 addresses and private keys for many different types of crypto, including Bitcoin (BTC) and Ethereum (ETH).
+In this project we will be building an HD Wallet that supports the management of multiple cryptocurrencies. We will be implementing this using hd-wallet-derive, a command-line tool that derives BIP32 addresses and private keys for many different types of crypto, including Bitcoin (BTC) and Ethereum (ETH).
 
 ## Dependencies
 
